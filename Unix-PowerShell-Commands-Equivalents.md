@@ -1,4 +1,4 @@
-Voici la liste des commandes **UNIX** courantes et leurs équivalents en **PowerShell** :
+#Voici la liste des commandes **UNIX** courantes et leurs équivalents en **PowerShell** :
 
 1. cp (copy, copier):
 - **Unix** : La commande copie des fichiers ou des répertoires.
@@ -33,10 +33,10 @@ Voici un exemple : `New-Item -Path .\TestFolder -ItemType Directory`
 - **Unix** : La commande cat affiche le contenu d’un fichier.
 - **PowerShell** : L’équivalent PowerShell est Get-Content.
 
-Voici les lignes de commandes que j’ai utilisées pour trouver ces équivalents :
+# Voici les lignes de commandes que j’ai utilisées pour trouver ces équivalents :
 
 `Get-Alias` ou `Alias` ou `alias`
-On obtient une liste de tous les alias car certains comme mkdir diffèrent légèrement de Unix et peuvent être difficiles à trouver
+On obtient une liste de tous les alias car certaines commandes diffèrent légèrement de Unix et peuvent être difficiles à trouver (exemple mkdir doit être remplacé par md) 
 1. `Get-Alias cp | Get-Help`
 2. `Get-Alias rm | Get-Help`
 3. `Get-Alias chdir | Get-Help`
