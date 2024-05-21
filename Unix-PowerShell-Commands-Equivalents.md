@@ -1,4 +1,4 @@
-# Voici la liste des commandes **UNIX** courantes et leurs équivalents en **PowerShell** :
+# Voici la liste des commandes **UniX** courantes et leurs équivalents en **PowerShell** :
 
 1. **cp** (copy, copier):
 - **Unix** : La commande copie des fichiers ou des répertoires.
