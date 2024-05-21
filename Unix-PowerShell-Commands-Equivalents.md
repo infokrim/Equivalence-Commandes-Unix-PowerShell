@@ -1,35 +1,35 @@
 # Voici la liste des commandes **UNIX** courantes et leurs équivalents en **PowerShell** :
 
-1. cp (copy, copier):
+1. **cp** (copy, copier):
 - **Unix** : La commande copie des fichiers ou des répertoires.
 - **PowerShell** : L'équivalent PowerShell est Copy-Item.
 
-2. rm (remove, supprimer) :
+2. **rm** (remove, supprimer) :
 - **Unix** : La commande supprime des ou des répertoires.
 - **PowerShell** : L'équivalent PowerShell est Remove-Item.
 
-3. cd (change directory, changer de répertoire)
+3. **cd** (change directory, changer de répertoire)
 - **Unix** : La commande cd permet de changer de répertoire.
 -**PowerShell** : L’équivalent PowerShell est Set-Location.
 
-4. mkdir (make directory, créer un répertoire) :
+4. **mkdir** (make directory, créer un répertoire) :
 - **Unix** : La commande mkdir crée un nouveau répertoire.
 - **PowerShell** : L’équivalent PowerShell est New-Item -ItemType Directory. 
 Voici un exemple : `New-Item -Path .\TestFolder -ItemType Directory`
 
-5. man (manual,manuel) :
+5. **man** (manual,manuel) :
 - **Unix** : La commande man affiche le manuel d’une commande.
 -**PowerShell** : L’équivalent PowerShell est Get-Help pour obtenir des informations sur les cmdlets.
 
-6. (history, historique des commandes) :
+6. **hystory** (history, historique des commandes) :
 - **Unix** : La commande history affiche l’historique des commandes.
 - **PowerShell** : L’équivalent PowerShell est Get-History pour afficher l’historique des commandes.
 
-7. alias :
+7. **alias** :
 - **Unix** : La commande alias crée ou affiche des alias pour d’autres commandes.
 - **PowerShell** : L’équivalent PowerShell est New-Alias.
 
-8. cat :
+8. **cat** :
 - **Unix** : La commande cat affiche le contenu d’un fichier.
 - **PowerShell** : L’équivalent PowerShell est Get-Content.
 
